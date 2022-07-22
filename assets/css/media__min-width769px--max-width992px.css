@@ -1,0 +1,42 @@
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .cabecalho{
+        background-color: #f9f9f9;
+        padding: 20px 0 20px 0;
+        justify-content: space-between;
+        padding: 0 1em 0 1em;   }
+    .menu__lista{
+        font-size: 1em;    }
+    .banner__img{
+        height: calc(100vh - 70px);}
+    .banner__titulo{
+        font-size: 4.5em;}  
+    .sobre__titulo{
+        font-size: 3em;}
+    .sobre__descricao{
+        font-size: 1.7em;    }
+    .receitas{
+        display: flex;
+        padding: .5em 0 .5em 1em;    }
+    .receita{
+        width: calc(50% - 1em);
+        margin: 1em 1em 1em 0;}
+    .receita__img{
+        height: auto;    }
+    .quem-somos__titulo{
+        font-size: 3em;    }
+    .quem-somos__descricao{
+        margin-top: 6%;
+        font-size: 1.4em;    }
+    .pessoa__img{
+        height: 240px;
+        width: 240px;    }
+    .pessoa__nome{
+        font-size: 2.3em;    }
+    .pessoa__descricao{
+        font-size: 1.4em;    }
+    .rodape__descricao{
+        font-size: 1.5em;    }
+    .rodape__caixa{
+        height: 56px;
+        width: 72px;    }
+}

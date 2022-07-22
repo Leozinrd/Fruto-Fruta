@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.quem-somos__titulo{
+    font-family: 'Pacifico', cursive;
+    color: #8d0606;
+    font-size: 4.5em;
+    text-align: center;
+}
