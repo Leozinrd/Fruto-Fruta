@@ -76,59 +76,56 @@
         font-size: 1.5rem;
     }
 
-    .ingredientes__lista .preparo__lista {
+    .ingredientes__lista, .preparos__lista {
         font-size: .8rem;
+        text-align: justify;
     }
 
     .caixa__como-fazer-abacate {
-        width: 87vw;
-        left: 3.1vw;
-        height: 55vh;
-        top: calc(30vh/2);
+        width: 90%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .caixa__como-fazer-kiwi {
-        width: 90vw;
-        left: calc(3vw/2);
-        height: 75vh;
-        top: calc(12vh/2);
-    }
-    .ingredientes__kiwi{
-        width: 160%;
+        width: 90%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .caixa__como-fazer-vegetais {
-        width: 90vw;
-        left: calc(3.1vw/2);
-        height: 75vh;
-        top: calc(12vh/2);
+        width: 90%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .caixa__como-fazer-pimentoes {
-        width: 83vw;
-        left: 5vw;
-        height: 55vh;
-        top: calc(40vh/2);
+        width: 90%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .caixa__como-fazer-oriental {
-        width: 90vw;
-        left: calc(3.1vw/2);
-        height: 75vh;
-        top: calc(12vh/2);
-    }
-    .ingredientes__oriental{
-        width: 135%;
+        width: 90%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .caixa__como-fazer-beterrabas {
-        width: 90vw;
-        left: 1.7vw;
-        height: 65vh;
-        top: calc(22vh/2);
+        width: 90%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        gap: 3rem;
     }
-    .ingredientes__beterrabas{
-        width: 115%;
+
+    .caixa__fechar img{
+        width: 40px;
     }
 
 }

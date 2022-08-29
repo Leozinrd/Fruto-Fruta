@@ -94,100 +94,74 @@
         font-size: 1.5rem;
     }
 
-    .ingredientes__lista .preparo__lista {
+    .ingredientes__lista, .preparos__lista {
         font-size: .8rem;
     }
-
+    .caixa__ingredientes, .caixa__preparo{
+        width: 100%;
+    }
     .caixa__como-fazer-abacate {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 80vw;
-        left: 2.5vw;
-        height: 55vh;
-        top: calc(30vh/2);
-    }
-
-    .fechar__abacate {
-        top: -109%;
-        left: 93%;
-        border-radius: 15px;
+        width: 82%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .caixa__como-fazer-kiwi {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 80vw;
-        left: 2.5vw;
-        height: 82vh;
-        top: calc(9vh/2);
-    }
-
-    .fechar__kiwi {
-        top: -107%;
-        left: 93%;
+        width: 82%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .caixa__como-fazer-vegetais {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 80vw;
-        left: 2.5vw;
-        height: 80vh;
-        top: calc(12vh/2);
-    }
-
-    .fechar__vegetais {
-        top: -106%;
-        left: 93%;
+        width: 82%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .caixa__como-fazer-pimentoes {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 80vw;
-        left: 2.5vw;
-        height: 50vh;
-        top: calc(35vh/2);
-    }
-
-    .fechar__pimentoes{
-        top: -108%;
-        left: 93%;
+        width: 82%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .caixa__como-fazer-oriental {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 80vw;
-        left: 2.5vw;
-        height: 87vh;
-        top: calc(8vh/2);
-    }
-
-    .fechar__oriental{
-        top: -107%;
-        left: 93%;
+        width: 82%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .caixa__como-fazer-beterrabas {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 80vw;
-        left: 2.5vw;
-        height: 65vh;
-        top: calc(25vh/2);
+        width: 82%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
-    .fechar__beterrabas{
-        top: -109%;
-        left: 93%;
-        border-radius: 10px;
+    .caixa__fechar img{
+        width: 40px;
     }
 
 }

@@ -1,13 +1,21 @@
 .caixa__como-fazer-kiwi{
     position: fixed;
     padding: 30px;
-    width: 60vw;
-    left: calc(40vw/2);
-    height: 30vh;
-    top: calc(70vh/2);
+    width: 65%;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
     background-color: #f1b8ab;
     display: flex;
     line-height: 25px;
-    gap: 1rem;
+    gap: 3rem;
     border-radius: 15px;
+    justify-content: space-around;
+}
+
+.ingredientes__kiwi{
+    width: fit-content;
+}
+
+.preparo__kiwi{
+    width: 58%;
 }

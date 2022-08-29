@@ -1,8 +1,9 @@
 .caixa__fechar{
-    position: relative;
-    top: -22px;
-    right: -22px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
     border: none;
+    border-radius: 20px;
     margin: 0;
     padding: 0;
     height: 50px;
