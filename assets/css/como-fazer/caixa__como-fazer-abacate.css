@@ -1,0 +1,13 @@
+.caixa__como-fazer-abacate{
+    position: fixed;
+    padding: 30px;
+    width: 45vw;
+    left: calc(55vw/2);
+    height: 22vh;
+    top: calc(68vh/2);
+    background-color: #f1b8ab;
+    display: flex;
+    line-height: 25px;
+    gap: 1rem;
+    border-radius: 15px;
+}

@@ -1,0 +1,13 @@
+.caixa__como-fazer-vegetais{
+    position: fixed;
+    padding: 30px;
+    width: 47vw;
+    left: calc(53vw/2);
+    height: 30vh;
+    top: calc(70vh/2);
+    background-color: #f1b8ab;
+    display: flex;
+    line-height: 25px;
+    gap: 1rem;
+    border-radius: 15px;
+}

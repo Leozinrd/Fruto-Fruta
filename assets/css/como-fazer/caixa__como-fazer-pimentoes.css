@@ -1,0 +1,13 @@
+.caixa__como-fazer-pimentoes{
+    position: fixed;
+    padding: 30px;
+    width: 45vw;
+    left: calc(55vw/2);
+    height: 23vh;
+    top: calc(77vh/2);
+    background-color: #f1b8ab;
+    display: flex;
+    line-height: 25px;
+    gap: 1rem;
+    border-radius: 15px;
+}

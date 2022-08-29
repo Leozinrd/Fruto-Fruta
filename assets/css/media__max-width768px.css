@@ -1,52 +1,193 @@
-@media screen and (min-width: 0px) and (max-width: 768px){
-    .cabecalho{
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .cabecalho {
         background-color: #f9f9f9;
         padding: 20px 0 20px 0;
-        justify-content: center;    }
-    .cabecalho__img{
-        display: none;    }
-    .menu__lista{
-        font-size:.8em;    }
-    .banner__img{
-        height: calc(100vh - 55px);}
-    .banner__titulo{
-        font-size: 4.5em;}  
-    .sobre__titulo{
-        font-size: 3em;}
-    .sobre__descricao{
-        font-size: 1.7em;    }
-    .receitas{
+        justify-content: center;
+    }
+
+    .cabecalho__img {
+        display: none;
+    }
+
+    .menu__lista {
+        font-size: .8em;
+    }
+
+    .banner__img {
+        height: calc(100vh - 55px);
+    }
+
+    .banner__titulo {
+        font-size: 4.5em;
+    }
+
+    .sobre__titulo {
+        font-size: 3em;
+    }
+
+    .sobre__descricao {
+        font-size: 1.7em;
+    }
+
+    .receitas {
         padding: 2em 0 .2em 2em;
-        display: block;    }
-    .receita{
-        width: auto;    
+        display: block;
+    }
+
+    .receita {
+        width: auto;
         margin-bottom: 2em;
-        margin-right: 2em;}
-    .receita__img{
-        height: auto;    }
-    .quem-somos__titulo{
-        font-size: 3em;    }
-    .quem-somos__descricao{
+        margin-right: 2em;
+    }
+
+    .receita__img {
+        height: auto;
+    }
+
+    .quem-somos__titulo {
+        font-size: 3em;
+    }
+
+    .quem-somos__descricao {
         margin-top: 6%;
-        font-size: 1.4em;    }
-    .pessoas{
-        display: block;    
-        margin: 3em 0 2em;}
-    .pessoa{
-        width: 100%;    
-        margin-bottom: 1.5em;}
-    .pessoa__img{
+        font-size: 1.4em;
+    }
+
+    .pessoas {
+        display: block;
+        margin: 3em 0 2em;
+    }
+
+    .pessoa {
+        width: 100%;
+        margin-bottom: 1.5em;
+    }
+
+    .pessoa__img {
         height: 240px;
-        width: 240px;    }
-    .pessoa__nome{
-        font-size: 2.3em;    }
-    .pessoa__descricao{
-        font-size: 1.4em;    }
-    .rodape__descricao{
-        font-size: 1.5em;    }
-    .rodape__caixa{
+        width: 240px;
+    }
+
+    .pessoa__nome {
+        font-size: 2.3em;
+    }
+
+    .pessoa__descricao {
+        font-size: 1.4em;
+    }
+
+    .rodape__descricao {
+        font-size: 1.5em;
+    }
+
+    .rodape__caixa {
         height: 56px;
-        width: 72px;    }
-    .caixa2{
-        margin: 0 20px 0 0;    }
+        width: 72px;
+    }
+
+    .caixa2 {
+        margin: 0 20px 0 0;
+    }
+
+    .ingredientes__titulo,
+    .preparo__titulo {
+        font-size: 1.5rem;
+    }
+
+    .ingredientes__lista .preparo__lista {
+        font-size: .8rem;
+    }
+
+    .caixa__como-fazer-abacate {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 80vw;
+        left: 2.5vw;
+        height: 55vh;
+        top: calc(30vh/2);
+    }
+
+    .fechar__abacate {
+        top: -109%;
+        left: 93%;
+        border-radius: 15px;
+    }
+
+    .caixa__como-fazer-kiwi {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 80vw;
+        left: 2.5vw;
+        height: 82vh;
+        top: calc(9vh/2);
+    }
+
+    .fechar__kiwi {
+        top: -107%;
+        left: 93%;
+    }
+
+    .caixa__como-fazer-vegetais {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 80vw;
+        left: 2.5vw;
+        height: 80vh;
+        top: calc(12vh/2);
+    }
+
+    .fechar__vegetais {
+        top: -106%;
+        left: 93%;
+    }
+
+    .caixa__como-fazer-pimentoes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 80vw;
+        left: 2.5vw;
+        height: 50vh;
+        top: calc(35vh/2);
+    }
+
+    .fechar__pimentoes{
+        top: -108%;
+        left: 93%;
+    }
+
+    .caixa__como-fazer-oriental {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 80vw;
+        left: 2.5vw;
+        height: 87vh;
+        top: calc(8vh/2);
+    }
+
+    .fechar__oriental{
+        top: -107%;
+        left: 93%;
+    }
+
+    .caixa__como-fazer-beterrabas {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 80vw;
+        left: 2.5vw;
+        height: 65vh;
+        top: calc(25vh/2);
+    }
+
+    .fechar__beterrabas{
+        top: -109%;
+        left: 93%;
+        border-radius: 10px;
+    }
+
 }

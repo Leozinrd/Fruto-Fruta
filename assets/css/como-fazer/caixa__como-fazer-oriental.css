@@ -1,0 +1,13 @@
+.caixa__como-fazer-oriental{
+    position: fixed;
+    padding: 30px;
+    width: 60vw;
+    left: calc(40vw/2);
+    height: 33vh;
+    top: calc(67vh/2);
+    background-color: #f1b8ab;
+    display: flex;
+    line-height: 25px;
+    gap: 1rem;
+    border-radius: 15px;
+}

@@ -1,42 +1,134 @@
-@media screen and (min-width: 769px) and (max-width: 992px){
-    .cabecalho{
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .cabecalho {
         background-color: #f9f9f9;
         padding: 20px 0 20px 0;
         justify-content: space-between;
-        padding: 0 1em 0 1em;   }
-    .menu__lista{
-        font-size: 1em;    }
-    .banner__img{
-        height: calc(100vh - 70px);}
-    .banner__titulo{
-        font-size: 4.5em;}  
-    .sobre__titulo{
-        font-size: 3em;}
-    .sobre__descricao{
-        font-size: 1.7em;    }
-    .receitas{
+        padding: 0 1em 0 1em;
+    }
+
+    .menu__lista {
+        font-size: 1em;
+    }
+
+    .banner__img {
+        height: calc(100vh - 70px);
+    }
+
+    .banner__titulo {
+        font-size: 4.5em;
+    }
+
+    .sobre__titulo {
+        font-size: 3em;
+    }
+
+    .sobre__descricao {
+        font-size: 1.7em;
+    }
+
+    .receitas {
         display: flex;
-        padding: .5em 0 .5em 1em;    }
-    .receita{
+        padding: .5em 0 .5em 1em;
+    }
+
+    .receita {
         width: calc(50% - 1em);
-        margin: 1em 1em 1em 0;}
-    .receita__img{
-        height: auto;    }
-    .quem-somos__titulo{
-        font-size: 3em;    }
-    .quem-somos__descricao{
+        margin: 1em 1em 1em 0;
+    }
+
+    .receita__img {
+        height: fit-content;
+    }
+
+    .quem-somos__titulo {
+        font-size: 3em;
+    }
+
+    .quem-somos__descricao {
         margin-top: 6%;
-        font-size: 1.4em;    }
-    .pessoa__img{
+        font-size: 1.4em;
+    }
+
+    .pessoa__img {
         height: 240px;
-        width: 240px;    }
-    .pessoa__nome{
-        font-size: 2.3em;    }
-    .pessoa__descricao{
-        font-size: 1.4em;    }
-    .rodape__descricao{
-        font-size: 1.5em;    }
-    .rodape__caixa{
+        width: 240px;
+    }
+
+    .pessoa__nome {
+        font-size: 2.3em;
+    }
+
+    .pessoa__descricao {
+        font-size: 1.4em;
+    }
+
+    .rodape__descricao {
+        font-size: 1.5em;
+    }
+
+    .rodape__caixa {
         height: 56px;
-        width: 72px;    }
+        width: 72px;
+    }
+
+    .ingredientes__titulo,
+    .preparo__titulo {
+        font-size: 1.5rem;
+    }
+
+    .ingredientes__lista .preparo__lista {
+        font-size: .8rem;
+    }
+
+    .caixa__como-fazer-abacate {
+        width: 87vw;
+        left: 3.1vw;
+        height: 55vh;
+        top: calc(30vh/2);
+    }
+
+    .caixa__como-fazer-kiwi {
+        width: 90vw;
+        left: calc(3vw/2);
+        height: 75vh;
+        top: calc(12vh/2);
+    }
+    .ingredientes__kiwi{
+        width: 160%;
+    }
+
+    .caixa__como-fazer-vegetais {
+        width: 90vw;
+        left: calc(3.1vw/2);
+        height: 75vh;
+        top: calc(12vh/2);
+    }
+
+    .caixa__como-fazer-pimentoes {
+        width: 83vw;
+        left: 5vw;
+        height: 55vh;
+        top: calc(40vh/2);
+    }
+
+    .caixa__como-fazer-oriental {
+        width: 90vw;
+        left: calc(3.1vw/2);
+        height: 75vh;
+        top: calc(12vh/2);
+    }
+    .ingredientes__oriental{
+        width: 135%;
+    }
+
+    .caixa__como-fazer-beterrabas {
+        width: 90vw;
+        left: 1.7vw;
+        height: 65vh;
+        top: calc(22vh/2);
+    }
+    .ingredientes__beterrabas{
+        width: 115%;
+    }
+
 }

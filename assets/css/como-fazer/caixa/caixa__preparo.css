@@ -1,0 +1,4 @@
+.caixa__preparo{
+    display: flex;
+    flex-direction: column;
+}
