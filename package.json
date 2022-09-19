@@ -2,7 +2,7 @@
   "name": "frutoefruta",
   "version": "1.0.0",
   "description": "- Git init\r - Git add\r - Git status\r - Git commit -m \"\"\r - Git remote add origin URL\r - Git branch -M main\r - Git push -u origin main",
-  "main": "receitas.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -18,11 +18,9 @@
     "url": "https://github.com/Leozinrd/Fruto-Fruta/issues"
   },
   "homepage": "https://github.com/Leozinrd/Fruto-Fruta#readme",
-  "devDependencies": {
+  "dependencies": {
+    "ejs": "^3.1.8",
     "express": "^4.18.1",
     "path": "^0.12.7"
-  },
-  "dependencies": {
-    "ejs": "^3.1.8"
   }
 }
