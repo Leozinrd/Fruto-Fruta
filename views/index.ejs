@@ -43,29 +43,16 @@
 
 	<section class="pessoas">
 
-		<div class="pessoa">
-			<img class="pessoa__img pessoa__img--roberta">
-			<div class="pessoa__conteudo">
-				<h6 class="pessoa__nome">Roberta</h6>
-				<p class="pessoa__descricao">Conteudista</p>
-			</div>
-		</div>
+		<% pessoas.forEach((pessoa)=>{ %>
 
-		<div class="pessoa">
-			<img class="pessoa__img pessoa__img--marcela">
-			<div class="pessoa__conteudo">
-				<h6 class="pessoa__nome">Marcela</h6>
-				<p class="pessoa__descricao">Chef de Cozinha</p>
+			<div class="pessoa">
+				<img class="<%= pessoa.imageClass %>">
+				<div class="pessoa__conteudo">
+					<h6 class="pessoa__nome"><%= pessoa.title %></h6>
+					<p class="pessoa__descricao"><%= pessoa.paragraph %></p>
+				</div>
 			</div>
-		</div>
-
-		<div class="pessoa">
-			<img class="pessoa__img pessoa__img--andreia">
-			<div class="pessoa__conteudo">
-				<h6 class="pessoa__nome">Andréia</h6>
-				<p class="pessoa__descricao">Pequena Produtora</p>
-			</div>
-		</div>
+		<% }) %>
 
 	</section>
 

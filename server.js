@@ -7,7 +7,7 @@ app.set(`view engine`, `ejs`);
 app.use(express.static(path.join(__dirname, `public`)));
 
 app.get(`/`, (req, res) => {
-    const data = [
+    const dataReceitas = [
         {
             image: `./assets/img/receitas/tigela-de-abacate.jpg`,
             title: `Tigela de abacate`,
@@ -44,9 +44,27 @@ app.get(`/`, (req, res) => {
             paragraph: `Receita refrescante e cheia de vitaminas para seu café da manhã`,
             button: `receita__botao botao-beterrabas`
         }
+    ];
+    const dataPessoas = [
+        {
+            imageClass: `pessoa__img pessoa__img--roberta`,
+            title: `Roberta`,
+            paragraph: `Conteudista`
+        },
+        {
+            imageClass: `pessoa__img pessoa__img--marcela`,
+            title: `Marcela`,
+            paragraph: `Chef de Cozinha`
+        },
+        {
+            imageClass: `pessoa__img pessoa__img--andreia`,
+            title: `Andréia`,
+            paragraph: `Pequena Produtora`
+        }
     ]
     res.render(`index`, {
-        receitas: data
+        receitas: dataReceitas,
+        pessoas: dataPessoas
     })
 });
 
