@@ -21,59 +21,16 @@
 
 	<section class="receitas" id="receitas">
 
+		<% receitas.forEach((receita)=>{ %>
 		<div class="receita">
-			<img class="receita__img" src="./assets/img/receitas/tigela-de-abacate.jpg" alt="Tigela de Abacate">
-			<div class="receita__conteudo">
-				<h4 class="receita__titulo">Tigela de abacate</h4>
-				<p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã</p>
-				<button class="receita__botao botao-abacate" alt="Receita Tigela de abacate">Ver receita</button>
+			<img src="<%= receita.image %>">
+				<div class="receita__conteudo">
+					<h4 class="receita__titulo"><%= receita.title %></h4>
+					<p class="receita__descricao"><%= receita.paragraph %></p>
+					<button class="<%= receita.button %>">Ver receita</button>
+				</div>
 			</div>
-		</div>
-
-		<div class="receita">
-			<img class="receita__img" src="./assets/img/receitas/salada-de-kiwi.jpg" alt="Salada de Kiwi">
-			<div class="receita__conteudo">
-				<h4 class="receita__titulo">Salada de kiwi</h4>
-				<p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã</p>
-				<button class="receita__botao botao-kiwi">Ver receita</button>
-			</div>
-		</div>
-
-		<div class="receita">
-			<img class="receita__img" src="./assets/img/receitas/mix-de-vegetais.jpg" alt="Mix de Vegetais">
-			<div class="receita__conteudo">
-				<h4 class="receita__titulo">Mix de vegetais</h4>
-				<p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã</p>
-				<button class="receita__botao botao-vegetais">Ver receita</button>
-			</div>
-		</div>
-
-		<div class="receita">
-			<img class="receita__img" src="./assets/img/receitas/pimentoes-a-juliana.jpg" alt="pimentoes à juliana">
-			<div class="receita__conteudo">
-				<h4 class="receita__titulo">Pimentões à Juliana</h4>
-				<p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã</p>
-				<button class="receita__botao botao-pimentoes">Ver receita</button>
-			</div>
-		</div>
-
-		<div class="receita">
-			<img class="receita__img" src="./assets/img/receitas/prato-oriental.jpg" alt="prato Oriental">
-			<div class="receita__conteudo">
-				<h4 class="receita__titulo">Prato Oriental</h4>
-				<p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã</p>
-				<button class="receita__botao botao-oriental">Ver receita</button>
-			</div>
-		</div>
-
-		<div class="receita">
-			<img class="receita__img" src="./assets/img/receitas/beterrabas-assadas.jpg" alt="beterrabas Assadas">
-			<div class="receita__conteudo">
-				<h4 class="receita__titulo">Beterrabas assadas</h4>
-				<p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã</p>
-				<button class="receita__botao botao-beterrabas">Ver receita</button>
-			</div>
-		</div>
+			<% }) %>
 
 	</section>
 
